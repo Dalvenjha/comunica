@@ -31,19 +31,20 @@ body {
 .c-button {
   align-items: center;
   background: #06A4FF;
-  border-radius: 16px;
+  border-radius: 10px;
   border: none;
   color: white;
   display: flex;
   font-family: 'Conv_Produkt-Medium', Sans-Serif;
-  font-size: 30px;
-  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 55px;
   justify-content: center;
   line-height: 1;
   margin: 0 auto;
-  padding: 13px 0;
+  padding: 0 35px;
   text-decoration: none;
-  width: 360px;
+  width: fit-content;
 }
 
 .c-button--white {
@@ -116,7 +117,7 @@ body {
 }
 
 .banner.principal img {
-  width: 60%;
+  width: 70%;
 }
 
 .text-center {
@@ -173,10 +174,11 @@ body {
   font-size: 30px;
   margin: 0 auto;
   width: 70%;
+  line-height: 1.2;
 }
 
 .img-center {
-  width: 350px;
+  width: 440px;
 }
 
 .question {
@@ -186,7 +188,7 @@ body {
 .question p {
   color: #20a6ff;
   font-family: 'Conv_Produkt-Medium', Sans-Serif;
-  font-size: 36px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -200,9 +202,9 @@ body {
   color: white;
   display: block;
   font-family: 'Conv_Produkt-Medium', Sans-Serif;
-  font-size: 30px;
-  margin-top: 30px;
-  padding: 16px 10px;
+  font-size: 21px;
+  margin-top: 20px;
+  padding: 22px 12px;
   text-decoration: none;
 }
 
@@ -421,6 +423,15 @@ body {
 }
 
 @media only screen and (max-width: 468px) {
+  .c-button {
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .banner.principal img {
+    width: 80%;
+  }
+
   .center-horizontal {
     padding-top: 50px;
   }
@@ -454,12 +465,6 @@ body {
     line-height: 28px;
   }
 
-  .c-button {
-    font-size: 18px;
-    height: 26px;
-    width: 280px;
-  }
-
   .c-button--white {
     font-size: 18px;
     height: 26px;
@@ -476,11 +481,12 @@ body {
   }
 
   .parrafo {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.2;
   }
 
   .question p {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .c-pb--8 {
@@ -492,20 +498,18 @@ body {
   }
 
   .question ul {
-    width: 250px;
+    width: 80%;
   }
 
   .question .item a {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
+    padding: 16px 35px;
+    line-height: 1.2;
   }
 
   .stickers {
     width: 90%
-  }
-
-  .c-button {
-    padding: 10px 0;
   }
 
   .modal .modal__container {
@@ -528,7 +532,7 @@ body {
   }
 
   .img-center {
-    width: 200px;
+    width: 270px;
   }
 
   .box-stickers {
