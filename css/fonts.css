@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'Conv_Produkt-Medium';
+	src: url('../fonts/Produkt-Medium.eot');
+	src: local('☺'), url('../fonts/Produkt-Medium.woff') format('woff'), url('../fonts/Produkt-Medium.ttf') format('truetype'), url('../fonts/Produkt-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Produkt-Regular';
+	src: url('../fonts/Produkt-Regular.eot');
+	src: local('☺'), url('../fonts/Produkt-Regular.woff') format('woff'), url('../fonts/Produkt-Regular.ttf') format('truetype'), url('../fonts/Produkt-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
