@@ -50,19 +50,20 @@ body {
 .c-button--white {
   align-items: center;
   background: white;
-  border-radius: 16px;
+  border-radius: 10px;
   border: none;
   color: #c4d600;
   display: flex;
   font-family: 'Conv_Produkt-Medium', Sans-Serif;
-  font-size: 24px;
-  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 55px;
   justify-content: center;
   line-height: 1;
   margin: 0 auto;
-  padding: 3px 0;
+  padding: 0 35px;
   text-decoration: none;
-  width: 380px;
+  width: fit-content;
 }
 
 .c-pb--2 {
@@ -374,7 +375,7 @@ body {
 .modal-parrafo {
   font-family: 'Conv_Produkt-Regular', Sans-Serif;
   font-size: 30px;
-  line-height: 50px;
+  line-height: 1.2;
   padding-bottom: 50px;
   margin: 0 auto;
   width: 50%;
@@ -413,6 +414,15 @@ body {
 
 .box-stickers .item img {
   width: 100%;
+}
+
+.close {
+  cursor: pointer;
+  height: 50px;
+  position: absolute;
+  right: 30px;
+  top: 13px;
+  width: 50px;
 }
 
 @media only screen and (max-width: 960px) {
