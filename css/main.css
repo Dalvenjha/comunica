@@ -561,3 +561,46 @@ body {
 #jsModal {
   z-index: 9000;
 }
+
+@media only screen and (max-height: 670px) {
+  .parrafo {
+    font-size: 14px;
+    width: 86%;
+  }
+
+  .img-center {
+    width: 210px;
+    padding-bottom: 10px;
+  }
+
+  .c-pb--6 {
+    padding-bottom: 20px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .question {
+    padding-top: 10px;
+  }
+
+  .question p {
+    font-size: 18px;
+  }
+
+  .question .item a {
+    font-size: 14px;
+  }
+
+  .box-stickers {
+    height: 210px;
+    width: 210px;
+    margin-bottom: 20px;
+  }
+
+  .c-pb--4 {
+    padding-bottom: 30px;
+  }
+}
